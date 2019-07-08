@@ -40,7 +40,7 @@ async function reponse() {
 
     // Checking response.
     page.on('response', async response => {
-        if (response.url() === 'https://github.com/manifest.jsonaaa')
+        if (response.url() === 'https://github.com/manifest.json')
             console.log(await response.json())
         else if (response.url() === 'https://github.com/dashboard/recent-activity') {
             if (response.ok()){
