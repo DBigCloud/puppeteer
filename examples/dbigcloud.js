@@ -1,5 +1,6 @@
 // Example to find and access to DBigcloud Blog through Google.
-// www.dbigcloud.com
+// Created by Daniel Romero Sánchez
+// https://www.dbigcloud.com/cloud-computing/346-automatizacion-y-monitorizacion-con-puppeteer-primeros-pasos.html
 
 const puppeteer = require('puppeteer');
 
